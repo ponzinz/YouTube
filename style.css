@@ -168,8 +168,30 @@ section.content::after {
     float: left;
 }
 
+a,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.video-preview {
+    position: relative;
+}
+
 .video-preview img {
-    width: 100%
+    width: 100%;
+}
+
+.video-length {
+    width: 45px;
+    text-align: center;
+    background-color: rgba(21, 21, 21, 0.8);
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    border-radius: 5px;
 }
 
 .text-box {
@@ -177,14 +199,15 @@ section.content::after {
 }
 
 .logo-boolean {
-    width: 50px;
-    height: 50px;
-    background-image: url(img/boolean_logo.png);
+    width: 40px;
+    height: 40px;
+    background-image: url(img/channels4_profile.jpg);
     background-position: center;
     background-size: contain;
     float: left;
     margin-right: 25px;
     margin-top: 5px;
+    border-radius: 25px;
 }
 
 .video-details {
